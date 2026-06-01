@@ -48,3 +48,8 @@ disabled = false
 format = '[ $time ]($style) '
 time_format = '%R'
 utc_time_offset = 'local'
+
+[conda]
+format = "[$symbol$environment](green) "
+symbol = "🐍 "
+ignore_base = false
